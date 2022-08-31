@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:background="@drawable/yh">
+
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+
+        android:id="@+id/constraintLayout2"
+        android:layout_width="417dp"
+        android:layout_height="521dp"
+        android:background="@drawable/colour_bg"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHeight_percent=".78"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView6"
+        app:layout_constraintVertical_bias="0.0">
+
+        <ImageView
+            android:id="@+id/fab_google"
+            android:layout_width="62dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="48dp"
+            android:backgroundTint="@color/white"
+            android:elevation="35dp"
+            android:src="@drawable/google"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent" />
+
+
+        <ImageView
+            android:id="@+id/fab_fb"
+            android:layout_width="62dp"
+            android:layout_height="54dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="48dp"
+            android:backgroundTint="@color/white"
+            android:elevation="35dp"
+            android:src="@drawable/facebook"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.28"
+            app:layout_constraintStart_toEndOf="@+id/fab_google" />
+
+        <ImageView
+            android:id="@+id/fab_insta"
+            android:layout_width="62dp"
+            android:layout_height="54dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginBottom="48dp"
+            android:backgroundTint="@color/white"
+            android:elevation="35dp"
+            android:src="@drawable/insagram"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/fab_google"
+            app:layout_constraintHorizontal_bias="0.691"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/btnr" />
+
+        <Button
+            android:id="@+id/btnr"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="339dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="39dp"
+            android:backgroundTint="@color/pink"
+            android:text="Register"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/fab_insta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <Button
+            android:id="@+id/btn_l"
+            android:layout_width="100dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="66dp"
+            android:layout_marginTop="339dp"
+            android:layout_marginEnd="66dp"
+            android:layout_marginBottom="39dp"
+            android:backgroundTint="@color/pink"
+            android:text="Login"
+            android:textSize="10dp"
+            app:layout_constraintBottom_toTopOf="@+id/fab_insta"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.911"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <EditText
+            android:id="@+id/mtvn"
+            android:layout_width="305dp"
+            android:layout_height="48dp"
+            android:layout_marginBottom="76dp"
+            android:background="@drawable/edit_text"
+            android:drawableStart="@drawable/ic_baseline_person_outline_24"
+            android:ems="15"
+            android:gravity="center"
+            android:hint="Enter name"
+            android:inputType="textPersonName"
+            app:layout_constraintBottom_toTopOf="@+id/mtve"
+            app:layout_constraintEnd_toEndOf="@+id/mtve"
+            app:layout_constraintStart_toStartOf="@+id/mtve"
+            app:layout_constraintTop_toBottomOf="@+id/textView2" />
+
+
+        <EditText
+            android:id="@+id/mtvpass1"
+            android:layout_width="305dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="33dp"
+            android:layout_marginEnd="33dp"
+            android:background="@drawable/edit_text"
+            android:drawableStart="@drawable/ic_baseline_lock_24"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter password"
+            android:inputType="textPassword"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.069"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.36" />
+
+        <EditText
+            android:id="@+id/mtve"
+            android:layout_width="305dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="3dp"
+            android:layout_marginBottom="246dp"
+            android:background="@drawable/edit_text"
+            android:drawableStart="@drawable/ic_baseline_mail_24"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter email"
+            android:inputType="textEmailAddress"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="@+id/mtvpass1"
+            app:layout_constraintTop_toBottomOf="@+id/mtvn" />
+
+        <TextView
+
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="44dp"
+            android:layout_marginEnd="11dp"
+            android:layout_marginBottom="41dp"
+            android:fontFamily="sans-serif"
+            android:text="sign up to stay connected"
+            android:textSize="20dp"
+            app:layout_constraintBottom_toTopOf="@+id/mtvn"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="1.0"
+            app:layout_constraintStart_toStartOf="@+id/mtvn"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="179dp"
+        android:layout_height="51dp"
+        android:layout_marginTop="80dp"
+        android:fontFamily="cursive"
+        android:text="welcome"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:textSize="40dp"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView6"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.448"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.781" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

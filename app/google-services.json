@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "747323775846",
+    "firebase_url": "https://frenzy-531a7-default-rtdb.firebaseio.com",
+    "project_id": "frenzy-531a7",
+    "storage_bucket": "frenzy-531a7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:747323775846:android:c146ebbe48f64ea90f06a7",
+        "android_client_info": {
+          "package_name": "com.tashy.frenzy"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "747323775846-df381iut6ne2hkjf007telhk1buoa83k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBHZQdGkDxGTA_XQVfC95Il3P4zh0whlJE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "747323775846-df381iut6ne2hkjf007telhk1buoa83k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

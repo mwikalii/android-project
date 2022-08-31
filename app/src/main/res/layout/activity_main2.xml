@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    >
+
+    <RelativeLayout
+        android:layout_width="400dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="16dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="130dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentEnd="true"
+            android:layout_marginVertical="10dp"
+            android:layout_marginTop="21dp"
+            android:layout_marginEnd="0dp"
+            android:orientation="horizontal">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/imgh"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:layout_marginStart="20dp"
+                android:adjustViewBounds="true"
+                android:src="@drawable/mj"/>
+
+            <TextView
+                android:id="@+id/TXTY"
+                android:layout_width="228dp"
+                android:layout_height="48dp"
+                android:layout_weight="1"
+                android:text="faith"
+                android:textColor="@color/black"
+                android:textSize="20dp" />
+
+
+
+            <TextView
+                android:id="@+id/rtr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp"
+                android:text="7:02" />
+
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>
